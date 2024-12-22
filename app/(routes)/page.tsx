@@ -7,7 +7,7 @@ import ProductList from '@/components/product-list';
 export const revalidate = 0;
 
 const HomePage = async () => {
-  const billboard = await getBillboard('ef209865-cc81-4077-80d8-c691b4d7a9cc');
+  const billboard = await getBillboard(process.env.MAIN_BILLBOARD_ID as string);
   console.log(billboard);
   const products = await getProducts({ isFeatured: true });
   return (

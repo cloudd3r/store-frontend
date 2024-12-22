@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
 
-const formatter = new Intl.NumberFormat('en-US', {
+const formatter = new Intl.NumberFormat('ru-RU', {
   style: 'currency',
-  currency: 'USD',
+  currency: 'RUB',
 });
 
 interface CurrencyProps {
