@@ -3,6 +3,7 @@
 import Button from '@/components/ui/button';
 import Currency from '@/components/ui/currency';
 import useCart from '@/hooks/use-cart';
+import { API_URL } from '@/lib/api-url';
 import axios from 'axios';
 import { useSearchParams } from 'next/navigation';
 import { useEffect } from 'react';
@@ -30,7 +31,7 @@ const Summary = () => {
   const onCheckout = async () => {
     try {
       const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/checkout`,
+        `${API_URL}/checkout`,
         {
           items: items.map((item) => ({
             id: item.id,

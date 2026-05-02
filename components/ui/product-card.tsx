@@ -54,6 +54,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
             />
             <IconButton
               onClick={onAddToCart}
+              data-testid={`product-card-add-${data.id}`}
               icon={<ShoppingCart size={20} className='text-gray-600' />}
             />
           </div>

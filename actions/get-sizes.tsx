@@ -1,6 +1,7 @@
+import { API_URL } from "@/lib/api-url";
 import { Size } from "@/types";
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/sizes`
+const URL = `${API_URL}/sizes`
 
 const getSizes = async (): Promise<Size[]> => {
     const res = await fetch(URL);

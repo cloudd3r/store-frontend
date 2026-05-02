@@ -1,0 +1,91 @@
+
+> store@0.1.0 dev
+> next dev -p 3002
+
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3002
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1976ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.5s (1060 modules)
+ ✓ Compiled in 441ms (499 modules)
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ ○ Compiling /product/[productId] ...
+ ✓ Compiled /product/[productId] in 879ms (1045 modules)
+ GET / 200 in 6953ms
+ GET /product/1e371509-c0bd-48de-a58c-b50a66ee0536 200 in 2988ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 1610ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 1234ms
+ ✓ Compiled /favicon.ico in 263ms (567 modules)
+ GET /favicon.ico 200 in 350ms
+ ✓ Compiled /product/[productId] in 111ms (574 modules)
+ GET /product/1e371509-c0bd-48de-a58c-b50a66ee0536 200 in 1882ms
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 785ms (1268 modules)
+ GET /cart 200 in 857ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 1434ms
+ GET /cart 200 in 8ms
+ ✓ Compiled in 833ms (1267 modules)
+ GET /cart 200 in 122ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 3312ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 3673ms
+{
+  id: 'bf9050e0-f9d1-413c-93cd-9fb347f60210',
+  storeId: '09402caa-0ecb-488a-b187-8c23b9e08415',
+  label: 'Jeans billboardd',
+  imageUrl: 'https://res.cloudinary.com/doy3q8un5/image/upload/v1734851179/agtpnziaholxxuz333i5.jpg',
+  createdAt: '2024-12-22T07:06:24.622Z',
+  updatedAt: '2024-12-22T07:06:24.622Z'
+}
+ GET / 200 in 1218ms
+ GET /product/1e371509-c0bd-48de-a58c-b50a66ee0536 200 in 1973ms
+ GET /cart 200 in 8ms
